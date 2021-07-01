@@ -20,6 +20,7 @@ $(window).scroll(function () {
         $('.text h4').removeClass('active');
     }
 
+
 });
 
 $('.box > .inner-box > img').click(function () {

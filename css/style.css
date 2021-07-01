@@ -18,6 +18,8 @@ a {
 
 
 
+/*----------------top 시작----------------*/
+
 .wrap {
     max-width: 100%;
 }
@@ -47,6 +49,7 @@ a {
     color: #946099;
     font-size: 20px;
     font-weight: 600;
+    margin-right: 30px;
 }
 
 .header ul > li {
@@ -61,7 +64,7 @@ a {
 .main {
     width: 100%;
     background-color: #946099;
-    padding-top: 51%;
+    padding-top: 54%;
     position: relative;
     margin-top: 60px;
 }
@@ -82,7 +85,7 @@ a {
 
 .main-gif {
     width: 30%;
-    height: 50%;
+    height: 44%;
     background-image: url(../img/susu-main.gif);
     background-size: 80%;
     background-repeat: no-repeat;
@@ -114,7 +117,11 @@ a {
 
 
 
+
 /*---------------------section1---------------------*/
+
+
+
 
 .section1 h1 {
     display: inline-block;
@@ -271,6 +278,7 @@ a {
 /*---------------------section2---------------------*/
 
 
+
 .section2 {
     width: 100%;
     height: 435px;
@@ -404,7 +412,11 @@ a {
     transform: rotate(45deg);
 }
 
+
+
 /*---------------------section3---------------------*/
+
+
 
 .middle-bg {
 
@@ -435,7 +447,7 @@ a {
 
 .text-hover-box {
     position: absolute;
-    background-color: rgba(0, 0, 0, 0.7);
+    background-color: rgba(0, 0, 0, 0.9);
     opacity: 0;
     visibility: hidden;
     transition: all 0.5s;
@@ -449,6 +461,48 @@ a {
     opacity: 1;
     visibility: visible;
     transition: all 0.5s;
+}
+
+.swiper-slide .text-wrap {
+    width: 500px;
+    margin: 0 auto;
+    margin-top: 180px;
+    color: #fff;
+}
+
+.swiper-slide .title {
+    font-size: 45px;
+
+}
+
+.swiper-slide p {
+    margin-top: 60px;
+    line-height: 30px;
+}
+
+.swiper-slide .title {
+    color: #fff;
+}
+
+.swiper-slide .btn-box {
+
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    border: 1px solid #fff;
+    color: #fff;
+    text-align: center;
+    line-height: 40px;
+    font-size: 13px;
+    margin: 0 auto;
+    margin-top: 50px;
+}
+
+
+.swiper-slide .btn-box:hover {
+    background-color: #fff;
+    color: #000;
+    transition: 0.5s;
 }
 
 .swiper-container {
@@ -486,13 +540,15 @@ a {
 
 }
 
+
+
 .swiper-button-next {
     width: 150px;
     height: 50px;
     border-radius: 30px;
     background-color: #fff;
     z-index: 55;
-    box-shadow:2px 3px 14px rgba(0,0,0,0.5); 
+    box-shadow: 2px 3px 14px rgba(0, 0, 0, 0.5);
 }
 
 .swiper-button-prev {
@@ -501,7 +557,7 @@ a {
     border-radius: 30px;
     background-color: #fff;
     z-index: 55;
-    box-shadow:2px 3px 14px rgba(0,0,0,0.5); 
+    box-shadow: 2px 3px 14px rgba(0, 0, 0, 0.5);
 }
 
 .swiper-button-next:after,
@@ -521,11 +577,16 @@ a {
     color: #946099;
 }
 
+
+
+
 /*---------------------section4---------------------*/
+
+
 
 .section4 {
     position: relative;
-    margin-top: 200px;
+    margin-top: 100px;
 }
 
 .section4 > .gray-bg {
@@ -557,12 +618,46 @@ a {
     display: block;
 }
 
+.box5 a {}
+
+.box5 a p {
+    text-align: center;
+    font-size: 13px;
+    width: 80px;
+    height: 20px;
+    line-height: 20px;
+    margin: 0 auto;
+    border: 1px solid #fff;
+    color: #fff;
+    border-radius: 12px;
+    margin-top: -6px;
+
+}
+
+.box5 a p:hover {
+    background-color: #fff;
+    color: #946099;
+    transition: 0.4s;
+}
+
+
+
+/*---------------------section5---------------------*/
+
+
+
 
 .design-wrap {
     max-width: 1600px;
     margin: 0 auto;
     width: 100%;
     /*    border: 1px solid red;*/
+}
+
+.design-wrap h1 {
+    text-align: center;
+    color: #946099;
+    margin-bottom: 50px;
 }
 
 .design-box {
@@ -612,6 +707,7 @@ a {
     margin: 0 auto;
     margin-top: 10px;
     overflow: hidden;
+    border: 1px solid #ddd;
 }
 
 .box .inner-box img {
@@ -620,9 +716,9 @@ a {
 
 }
 
-
 .footer-wrap {
     margin-top: 200px;
+    position: relative;
 }
 
 
@@ -636,16 +732,68 @@ a {
 }
 
 
+.footer-wrap p{
+    position: absolute;
+    bottom:30px;
+    color: #fff;
+    left:50%;
+    transform: translateX(-50%);
+}
 
+/*---------------------  반응형  ---------------------*/
+@media(max-width:1608px) {
 
+    .tag {
+        font-size: 22px;
+    }
 
+    .hashtag {
+        margin-top: 33px;
+    }
+}
 
+@media(max-width:1430px) {
+    .tag {
+        font-size: 18px;
+    }
 
+    .tag1 {
+        margin-bottom: 6px;
+    }
 
+    .hashtag {
+        margin-top: 23px;
+    }
 
+}
 
-/*---------------------section5---------------------*/
+@media(max-width:1566px) {
 
+    .introduce h1 {
+
+        font-size: 60px;
+        line-height: 75px;
+    }
+
+    .introduce h3 {
+        font-size: 20px;
+        line-height: 26px;
+
+    }
+
+    .introduce h4 {
+        font-size: 17px;
+    }
+
+    .profile .profile-img {
+        width: 300px;
+        height: 300px;
+    }
+
+    .profile .profile-img-wrap {
+        margin-right: 0;
+    }
+}
 
 
 @media(max-width:1399px) {
@@ -659,6 +807,106 @@ a {
     }
 
 }
+
+@media(max-width:1291px) {
+
+    .introduce h1 {
+
+        font-size: 50px;
+        line-height: 65px;
+    }
+
+    .introduce h3 {
+        font-size: 18px;
+
+    }
+
+    .introduce h4 {
+        font-size: 15px;
+    }
+
+}
+
+@media(max-width:1272px) {
+    .tag {
+        font-size: 17px;
+    }
+
+    .tag li {
+        margin-right: 40px;
+    }
+
+    .tag1 {
+        margin-bottom: 6px;
+    }
+
+    .hashtag {
+        margin-top: 23px;
+    }
+
+}
+
+@media(max-width:1152px) {
+    .introduce h1 {
+        margin-bottom: 17px;
+        font-size: 35px;
+        line-height: 42px;
+    }
+
+    .introduce h3 {
+        font-size: 14px;
+        line-height: 17px;
+
+    }
+
+    .introduce h4 {
+        font-size: 12px;
+    }
+
+    .introduce .text {
+        height: 209px;
+    }
+
+    .profile .profile-img {
+        width: 230px;
+        height: 230px;
+    }
+
+    .profile .profile-text {
+        font-size: 14px;
+        line-height: 18px;
+    }
+
+    .profile .profile-img-wrap {
+        width: 330px;
+        height: 400px;
+    }
+
+    .section2 {
+        padding-top: 0;
+    }
+}
+
+@media(max-width:1034px) {
+    
+    .tag {
+        font-size: 14px;
+    }
+
+    .tag li {
+        margin-right: 32px;
+    }
+
+    .tag1 {
+        margin-bottom: -10px;
+    }
+
+    .hashtag {
+        margin-top: 23px;
+    }
+}
+
+
 
 @media(max-width:922px) {
 
@@ -677,6 +925,94 @@ a {
     .box {
         margin-left: 10px !important;
         margin-right: 10px !important;
+    }
+
+}
+
+@media(max-width:768px){
+    
+    .introduce h1 {
+        margin-bottom: 17px;
+        font-size: 25px;
+        line-height: 33px;
+    }
+
+    .introduce h3 {
+        font-size: 12px;
+        line-height: 17px;
+        letter-spacing: 1px;
+
+    }
+
+    .introduce h4 {
+        font-size: 11px;
+        letter-spacing: 1px;
+    }
+     .profile .profile-img {
+        width: 180px;
+        height: 180px;
+    }
+      .profile .profile-img-wrap {
+        width: 200px;
+        height: 300px;
+    }
+    .introduce .text{
+        margin-left: 65px;
+    }
+    .tag {
+        font-size: 13px;
+    }
+
+    .tag li {
+        margin-right: 25px;
+    }
+
+    .tag1 {
+        margin-bottom: -14px;
+    }
+
+    .hashtag {
+        margin-top: -9px;
+    }
+
+    .introduce{
+        height: 400px;
+    }
+    .profile{
+        height: 400px;
+    }
+    
+    .swiper-container{
+        top:-74px;
+    }
+    .swiper-button-next{
+        width: 95px;
+        height: 49px;
+    }
+    .swiper-button-prev{
+         width: 95px;
+        height: 49px;
+    }
+}
+
+@media(max-width:630px) {
+
+    .header ul {
+        font-size: 15px;
+    }
+
+    .header ul > li {
+        margin-right: 40px;
+    }
+
+}
+
+
+@media(max-width:452px) {
+
+    .header ul {
+        opacity: 0;
+        visibility: visible;
     }
 
 }
