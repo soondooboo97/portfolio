@@ -170,7 +170,7 @@ a {
 .introduce h3 {
     letter-spacing: 4px;
     font-size: 25px;
-    line-height: 30px;
+    line-height: 35px;
     transform: translateY(-50px);
     transition: 1s;
     opacity: 0;
@@ -235,7 +235,7 @@ a {
 }
 
 .hashtag {
-    margin-top: 100px;
+    margin-top: 155px;
 }
 
 .hashtag ul {
@@ -247,11 +247,11 @@ a {
     height: 40px;
     margin-left: 100px;
     /*    margin-top: 100px;*/
-    font-size: 27px;
+    font-size: 20px;
 }
 
 .tag1 {
-    margin-bottom: 20px;
+    margin-bottom: 10px;
 }
 
 .tag li {
@@ -777,7 +777,7 @@ a {
 
     .introduce h3 {
         font-size: 20px;
-        line-height: 26px;
+        line-height: 25px;
 
     }
 
